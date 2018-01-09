@@ -16,7 +16,7 @@ header{
 header .logo{
   color: MediumAquamarine;
 }
-header a{
+a{
   color: black;
 }
 .logo{
@@ -110,4 +110,25 @@ nav span{
 .links h3{
   font-size: 16px;
   font-weight: bold;
+}
+footer{
+  background-color: MediumAquamarine;
+  margin: auto;
+  font-family: Verdana;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 325px;
+}
+#timesfooter{
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+footer a{
+  padding: 20px;
+  font-weight: normal;
 }
